@@ -1,0 +1,11 @@
+var ip = 5;
+var data = 1
+
+if(ip < 0){
+    console.log('Not possible')
+}else{
+     for(let i =1; i<= ip;i++){
+            data = data * i
+        }
+        console.log(`Factorila of ${ip} is ${data}`)
+}
