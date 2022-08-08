@@ -1,0 +1,5 @@
+const string = "madam"
+
+let palindrome = string.split('').reverse().join('')
+
+string === palindrom  ? true : false
