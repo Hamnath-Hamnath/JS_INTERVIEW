@@ -1,0 +1,7 @@
+const sum = arr => {
+    return arr.reduce((pre,curn)=>{
+        return pre + curn
+    })
+}
+
+console.log(sum([1,2,3,4,5]))
