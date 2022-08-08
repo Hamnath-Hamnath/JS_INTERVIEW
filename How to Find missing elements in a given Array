@@ -1,0 +1,11 @@
+const missing_Number = arr => {
+    const miss=[];
+    const min = Math.min(...arr)
+    const max = Math.max(...arr)
+    for(let i = min; i<max; i++){
+        arr.indexOf(i) < 0 ? miss.push(i) : ''
+    }
+    return miss
+}
+
+console.log(missing_Number([1,2,3,4,7,8,10]))
